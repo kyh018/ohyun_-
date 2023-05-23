@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        .block{
+            box-sizing: border-box;
+            background-color: lightblue;
+            border: 1px solid blue;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            color: red;
+        }
+
+        .inline{
+            background-color: yellowgreen;
+            border-radius: 10px;
+            padding: 10px 50px;      
+            color: white;
+            border: 3px dashed black;
+        
+                 /* padding: 10px 50px = 상하 10px, 가로세로 50px */
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- block 레벨 요소 : width 및 height로 너비 및 높이 조절 가능, margin으로 띄어는 것도 가능,-->
+    <div class="block">Box</div>
+    <div class="block">Box</div>
+
+
+    <!-- inline 요소 :너비 및 높이 사용 불가능, margin을 이용한 것도 불가능-->
+    <a class="inline" href="">a 태그</a> 
+    <span class="inline">span 태그</span>
+</body>
+</html>
